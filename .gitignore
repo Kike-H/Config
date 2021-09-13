@@ -1,1 +1,8 @@
+# Storage
 .DS_Store
+
+# Virtula environment
+**/venv
+
+# Virtula environment
+**/plugged
