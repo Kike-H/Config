@@ -3,6 +3,7 @@ call plug#begin('~/config/nvim/plugged')
 "Theme
 Plug 'christianchiarulli/nvcode-color-schemes.vim' " Color scheme
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Treesiter for the scheme
+Plug 'kyazdani42/nvim-web-devicons'
 
 "Plugs 
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " Auto-complte CoC
@@ -22,22 +23,27 @@ Plug 'honza/vim-snippets' "Default Snips
 Plug 'lukas-reineke/indent-blankline.nvim' "indent Line
 Plug 'turbio/bracey.vim', {'do': 'npm i --prefix server'} "Live server
 Plug 'sbdchd/neoformat' "Prettier 
-"Alternative Auto-complete
-" Plug 'neoclide/coc-tabnine' "Auto complte tabnine
+
+if has('win32') || has('win64')
+  Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
+else
+  Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
+endif
+
 call plug#end()
 
 "Plugs Config
-
-source ~/config/nvim/Plugs-Config/vimspector.vim "Vimspector
-source ~/config/nvim/Plugs-Config/gitgutter.vim "Gitgutter
-source ~/config/nvim/Plugs-Config/lspconfig.vim "lspconfig
-source ~/config/nvim/Plugs-Config/nerdTree.vim " Nerde Tree
-source ~/config/nvim/Plugs-Config/devicons.vim " Nerd tree icons
-source ~/config/nvim/Plugs-Config/airline.vim " AirLine
-source ~/config/nvim/Plugs-Config/closetag.vim "AutoClose Tag
-source ~/config/nvim/Plugs-Config/tagalong.vim "AutoReanme Tag
-source ~/config/nvim/Plugs-Config/ultiSnips.vim "ultiSnips
-source ~/config/nvim/Plugs-Config/CoC.vim " CoC
-source ~/config/nvim/plugs-config/indent-blankLine.vim
-source ~/config/nvim/Plugs-Config/bracey.vim
-source ~/config/nvim/Plugs-Config/prettier.vim
+source ~/Config/nvim/plugs-config/tabnine.vim "Tabnine
+source ~/Config/nvim/Plugs-Config/vimspector.vim "Vimspector
+source ~/Config/nvim/Plugs-Config/gitgutter.vim "Gitgutter
+source ~/Config/nvim/Plugs-Config/lspConfig.vim "lspConfig
+source ~/Config/nvim/Plugs-Config/nerdTree.vim " Nerde Tree
+source ~/Config/nvim/Plugs-Config/devicons.vim " Nerd tree icons
+source ~/Config/nvim/Plugs-Config/airline.vim " AirLine
+source ~/Config/nvim/Plugs-Config/closetag.vim "AutoClose Tag
+source ~/Config/nvim/Plugs-Config/tagalong.vim "AutoReanme Tag
+source ~/Config/nvim/Plugs-Config/ultiSnips.vim "ultiSnips
+source ~/Config/nvim/Plugs-Config/CoC.vim " CoC
+source ~/Config/nvim/plugs-Config/indent-blankLine.vim
+source ~/Config/nvim/Plugs-Config/bracey.vim
+source ~/Config/nvim/Plugs-Config/prettier.vim

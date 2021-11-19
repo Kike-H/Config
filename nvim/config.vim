@@ -15,12 +15,13 @@ set laststatus=2
 set noshowmode
 set foldmethod=indent
 set splitbelow splitright
+set guicursor=a:blinkon900
 
-let g:python3_host_prog = '~/config/nvim/venv/bin/python3'
+let g:python3_host_prog = '~/Config/nvim/venv/bin/python3'
 let mapleader = " "
 
 "Open a terminal integarte 
 nmap <leader>t :sp<CR> :term<CR> :res -5 <CR>
 
 "Run Scripts
-source ~/config/nvim/run-scripts.vim
+source ~/Config/nvim/run-scripts.vim

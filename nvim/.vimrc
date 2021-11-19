@@ -1,8 +1,8 @@
 "Basic Config 
-source ~/config/nvim/config.vim
+source ~/Config/nvim/config.vim
 
 "Plug 
-source ~/config/nvim/plugs.vim
+source ~/Config/nvim/plugs.vim
 
 "Theme
-source ~/config/nvim/theme.vim 
+source ~/Config/nvim/theme.vim 
