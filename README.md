@@ -18,6 +18,10 @@ You need to use a customizable terminal.
 
 Or you can use and other terminal.
 
+[Power10k](https://github.com/romkatv/powerlevel10k)
+
+[Jetbrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures)
+
 ### Configuration of COC
 
 ```bash
@@ -85,3 +89,13 @@ Comment #5F5F5F
 String #AECFA4
 Number #ffe29d
 ```
+
+Change the path 
+```bash
+# OS identifier color. 
+typeset -g LEVEL9K_OS_ICON_FOREGROUND=232 
+typeset -g LEVEL9K_OS_ICON_BACKGROUND=0 
+# Custom icon. 
+typeset -g LEVEL9K_OS_ICON_CONTENT_EXPANSION='👽'
+```
+
