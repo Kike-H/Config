@@ -22,6 +22,11 @@ Or you can use and other terminal.
 
 [Jetbrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures)
 
+### Create a symbolic link
+```bash
+ln -s ~/Config/nvim/.vimrc ./
+```
+
 ### Configuration of COC
 
 ```bash
