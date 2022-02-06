@@ -22,7 +22,6 @@ Plug 'sirver/ultisnips' " Snips
 Plug 'honza/vim-snippets' "Default Snips
 Plug 'lukas-reineke/indent-blankline.nvim' "indent Line
 Plug 'turbio/bracey.vim', {'do': 'npm i --prefix server'} "Live server
-Plug 'sbdchd/neoformat' "Prettier 
 
 if has('win32') || has('win64')
   Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
@@ -44,6 +43,5 @@ source ~/Config/nvim/Plugs-Config/closetag.vim "AutoClose Tag
 source ~/Config/nvim/Plugs-Config/tagalong.vim "AutoReanme Tag
 source ~/Config/nvim/Plugs-Config/ultiSnips.vim "ultiSnips
 source ~/Config/nvim/Plugs-Config/CoC.vim " CoC
-source ~/Config/nvim/plugs-Config/indent-blankLine.vim
-source ~/Config/nvim/Plugs-Config/bracey.vim
-source ~/Config/nvim/Plugs-Config/prettier.vim
+source ~/Config/nvim/plugs-Config/indent-blankLine.vim "Lines is code
+source ~/Config/nvim/Plugs-Config/bracey.vim "Live Server 
