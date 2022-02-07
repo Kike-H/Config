@@ -17,7 +17,7 @@ set foldmethod=indent
 set splitbelow splitright
 set guicursor=a:blinkon900
 
-let g:python3_host_prog = '~/Config/nvim/venv/bin/python3'
+let g:python3_host_prog = '~/Config/nvim/.venv/bin/python'
 let mapleader = " "
 
 "Open a terminal integarte 
