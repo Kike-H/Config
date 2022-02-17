@@ -26,6 +26,11 @@ Or you can use and other terminal.
 ```bash
 ln -s ~/Config/nvim/.vimrc ./
 ```
+> Then make the dile __~/.config/nvim/init.vim__
+```vim
+source ~/.vimrc
+```
+
 
 ### Configuration of COC
 

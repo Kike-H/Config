@@ -1,4 +1,4 @@
 "let g:bracey_browser_command = "Google Chrome"
-let g:bracey_server_port = 28820
+let g:bracey_server_port = 8080
 
 

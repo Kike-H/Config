@@ -16,12 +16,10 @@ Plug 'scrooloose/nerdtree' " Tree interface
 Plug 'ryanoasis/vim-devicons' "Icons nerdTree
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight' "highlight nerdtree
 Plug 'airblade/vim-gitgutter' "Git info
-Plug 'puremourning/vimspector' "Plug for debug 
 Plug 'alvan/vim-closetag' "AutoClose Tag
 Plug 'AndrewRadev/tagalong.vim' "AutoReanme Tag
 Plug 'sirver/ultisnips' " Snips
 Plug 'honza/vim-snippets' "Default Snips
-Plug 'lukas-reineke/indent-blankline.nvim' "indent Line
 Plug 'turbio/bracey.vim', {'do': 'npm i --prefix server'} "Live server
 
 "Flutter
@@ -40,7 +38,6 @@ call plug#end()
 
 "Plugs Config
 source ~/Config/nvim/plugs-config/tabnine.vim "Tabnine
-source ~/Config/nvim/Plugs-config/vimspector.vim "Vimspector
 source ~/Config/nvim/Plugs-config/gitgutter.vim "Gitgutter
 source ~/Config/nvim/Plugs-config/lspConfig.vim "lspConfig
 source ~/Config/nvim/Plugs-config/nerdTree.vim " Nerde Tree
@@ -50,6 +47,5 @@ source ~/Config/nvim/Plugs-config/closetag.vim "AutoClose Tag
 source ~/Config/nvim/Plugs-config/tagalong.vim "AutoReanme Tag
 source ~/Config/nvim/Plugs-config/ultiSnips.vim "ultiSnips
 source ~/Config/nvim/Plugs-config/CoC.vim " CoC
-source ~/Config/nvim/plugs-config/indent-blankLine.vim "Lines is code
 source ~/Config/nvim/Plugs-config/bracey.vim "Live Server 
 source ~/Config/nvim/plugs-config/nerdcommenter.vim "nerdcommenter
