@@ -20,13 +20,6 @@ Plug 'alvan/vim-closetag' "AutoClose Tag
 Plug 'AndrewRadev/tagalong.vim' "AutoReanme Tag
 Plug 'sirver/ultisnips' " Snips
 Plug 'honza/vim-snippets' "Default Snips
-Plug 'turbio/bracey.vim', {'do': 'npm i --prefix server'} "Live server
-
-"Flutter
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'thosakwe/vim-flutter'
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
 
 if has('win32') || has('win64')
   Plug 'tbodt/deoplete-tabnine', { 'do': 'powershell.exe .\install.ps1' }
@@ -47,5 +40,4 @@ source ~/Config/nvim/Plugs-config/closetag.vim "AutoClose Tag
 source ~/Config/nvim/Plugs-config/tagalong.vim "AutoReanme Tag
 source ~/Config/nvim/Plugs-config/ultiSnips.vim "ultiSnips
 source ~/Config/nvim/Plugs-config/CoC.vim " CoC
-source ~/Config/nvim/Plugs-config/bracey.vim "Live Server 
 source ~/Config/nvim/plugs-config/nerdcommenter.vim "nerdcommenter

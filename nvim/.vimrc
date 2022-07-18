@@ -1,7 +1,7 @@
 "Basic Config 
 source ~/Config/nvim/config.vim
 
-"Plug 
+"Plugings
 source ~/Config/nvim/plugs.vim
 
 "Theme

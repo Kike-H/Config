@@ -19,9 +19,3 @@ set splitbelow splitright
 
 let g:python3_host_prog = '~/Config/nvim/.venv/bin/python'
 let mapleader = " "
-
-"Open a terminal integarte 
-nmap <leader>t :sp<CR> :term<CR> :res -5 <CR>
-
-"Run Scripts
-source ~/Config/nvim/run-scripts.vim
