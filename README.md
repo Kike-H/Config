@@ -31,6 +31,29 @@ ln -s ~/Config/nvim/.vimrc ./
 source ~/.vimrc
 ```
 
+### Settings for python host 
+1. Create a virtualen on nvim folder 
+
+```bash
+virtualenv 
+```
+
+2. Activate the virtualenv 
+```bash
+source ./.venv/bin/activate
+```
+
+3. Update pip
+```bash
+python -m pip install --upgrade pip
+```
+
+4. Install al requirements
+
+```bash
+pip install -r requirements.txt
+```
+
 
 ### Configuration of COC
 
