@@ -35,7 +35,7 @@ source ~/.vimrc
 1. Create a virtualen on nvim folder 
 
 ```bash
-virtualenv 
+virtualenv .venv
 ```
 
 2. Activate the virtualenv 
